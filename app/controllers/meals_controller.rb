@@ -12,7 +12,6 @@ class MealsController < ApplicationController
 
     def create
         meal = Meal.new(meal_params)
-        meal.category_id = 1
         if meal.save
             render json: meal, key_transform: :camel_lower
         else
@@ -37,7 +36,7 @@ class MealsController < ApplicationController
 
     private
     def meal_params
-        params.require(:meal).permit(:name, :thumb, :ingredients, :instruction)
+        params.require(:meal).permit(:name, :thumb, :ingredients, :instruction, :category_id)
     end
 
 end
