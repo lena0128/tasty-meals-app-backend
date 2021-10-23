@@ -7,20 +7,20 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Category.create([
-    {name: "Beef", image: "https://www.themealdb.com/images/category/beef.png"},
-    {name: "Chicken", image: "https://www.themealdb.com/images/category/chicken.png"},
-    {name: "Dessert", image: "https://www.themealdb.com/images/category/dessert.png"},
-    {name: "Lamb", image: "https://www.themealdb.com/images/category/lamb.png"},
-    {name: "Miscellaneous", image: "https://www.themealdb.com/images/category/miscellaneous.png"},
-    {name: "Pasta", image: "https://www.themealdb.com/images/category/pasta.png"},
-    {name: "Pork", image: "https://www.themealdb.com/images/category/pork.png"},
-    {name: "Seafood", image: "https://www.themealdb.com/images/category/seafood.png"},
-    {name: "Side", image: "https://www.themealdb.com/images/category/side.png"},
-    {name: "Starter", image: "https://www.themealdb.com/images/category/starter.png"},
-    {name: "Vegan", image: "https://www.themealdb.com/images/category/vegan.png"},
-    {name: "Vegetarian", image: "https://www.themealdb.com/images/category/vegetarian.png"},
-    {name: "Breakfast", image: "https://www.themealdb.com/images/category/vegetarian.png"},
-    {name: "Goat", image: "https://www.themealdb.com/images/category/goat.png"},
+    {name: "Beef"},
+    {name: "Chicken"},
+    {name: "Dessert"},
+    {name: "Lamb"},
+    {name: "Miscellaneous"},
+    {name: "Pasta"},
+    {name: "Pork"},
+    {name: "Seafood"},
+    {name: "Side"},
+    {name: "Starter"},
+    {name: "Vegan"},
+    {name: "Vegetarian"},
+    {name: "Breakfast"},
+    {name: "Goat"}
 ])
 
 Meal.create([

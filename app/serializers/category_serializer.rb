@@ -1,4 +1,4 @@
 class CategorySerializer < ActiveModel::Serializer
-  attributes :id, :name, :image
+  attributes :id, :name
   has_many :meals 
 end
