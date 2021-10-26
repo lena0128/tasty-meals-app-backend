@@ -11,7 +11,7 @@ https://github.com/lena0128/tasty-meals-app-frontend
 # Backend Installation
 * Clone this repo to your local computer
 
-* Get to the directory fun-drink-recipes (master)
+* Get to the directory `tasty-meals-app-backend (master)`
 
 * In your terminal:
 
