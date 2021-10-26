@@ -1,24 +1,30 @@
-# README
+# Tasty Meals App
+The Tasty Meals App is a SPA application with a Ruby API backend and a JavaScript forntend. Besides reading meal recipes from around the world, this app allows users to create, update or delete their unique recipes. Users can also search a meal by name and filter meals by category. Enjoy!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Live Site
+Please visit the live site here: https://vigorous-johnson-fa497d.netlify.app/
 
-Things you may want to cover:
+# Frontend Repo
+Please find the JavaScript frontend Repo here:
+https://github.com/lena0128/tasty-meals-app-frontend
 
-* Ruby version
+# Backend Installation
+* Clone this repo to your local computer
 
-* System dependencies
+* Get to the directory fun-drink-recipes (master)
 
-* Configuration
+* In your terminal:
 
-* Database creation
+Run `bundle install`
 
-* Database initialization
+Run `rails db:migrate`
 
-* How to run the test suite
+Run `rails db:seed`
 
-* Services (job queues, cache servers, search engines, etc.)
+# Usage
+Run `rails s` to start the server
 
-* Deployment instructions
+Open your browser to localhost
 
-* ...
+# Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/lena0128/tasty-meals-app-backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
