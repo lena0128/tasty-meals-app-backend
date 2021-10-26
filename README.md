@@ -28,3 +28,6 @@ Open your browser to localhost
 
 # Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/lena0128/tasty-meals-app-backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+
+# License
+The project is available as open source under the terms of the GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.en.html).
